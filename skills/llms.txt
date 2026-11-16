@@ -70,6 +70,10 @@ Each skill lives in a directory of the same name under `skills/` and contains `S
   Universal UI/UX Engineering and Design System execution. Enforces responsive mobile-first layouts, strict touch targets (>= 44px), zero layout shift (CLS), comprehensive component states (loading/empty/error/disabled), and WCAG 2.1 AA accessibility standards. Adapts dynamically to project tokens.
   Triggers: ui skills, design system, component states, touch targets, CLS optimization, responsive layout, WCAG accessibility.
 
+- unslop
+  Audits and refactors vibecoded or AI-generated UI into distinctive, production-grade craft interfaces. Eliminates clichéd AI tells (purple glows, gradient text, neon borders, emoji badges) across a strict 9-pass sequence (Spacing, Color, Icons, Copy, Type, Layout, Details, Visuals, Motion).
+  Triggers: unslop, polish ui, clean up ui, remove ai look, vibecoded ui, de-slop, ai ui audit, fix purple gradients.
+
 - web-artifacts-builder
   Complex multi-component interactive HTML artifacts built with React 18, TypeScript, Tailwind CSS, and shadcn/ui.
   Triggers: web artifact, claude artifact, complex html, interactive artifact, shadcn artifact.
