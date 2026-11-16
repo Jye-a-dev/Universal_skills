@@ -4,6 +4,13 @@ description: A set of resources to help me write all kinds of internal communica
 license: Complete terms in LICENSE.txt
 ---
 
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 ## When to use this skill
 To write internal communications, use this skill for:
 - 3P updates (Progress, Plans, Problems)

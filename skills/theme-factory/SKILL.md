@@ -3,9 +3,15 @@ name: theme-factory
 description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
 license: Complete terms in LICENSE.txt
 ---
-
-
 # Theme Factory Skill
+
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 
 This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.
 

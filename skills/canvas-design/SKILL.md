@@ -4,6 +4,13 @@ description: Create beautiful visual art in .png and .pdf documents using design
 license: Complete terms in LICENSE.txt
 ---
 
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.
 
 Complete this in two steps:

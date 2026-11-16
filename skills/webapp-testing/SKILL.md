@@ -3,8 +3,15 @@ name: webapp-testing
 description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
 license: Complete terms in LICENSE.txt
 ---
-
 # Web Application Testing
+
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 
 To test local web applications, write native Python Playwright scripts.
 

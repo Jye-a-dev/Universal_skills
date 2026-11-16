@@ -4,6 +4,13 @@ description: Creating algorithmic art using p5.js with seeded randomness and int
 license: Complete terms in LICENSE.txt
 ---
 
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 Algorithmic philosophies are computational aesthetic movements that are then expressed through code. Output .md files (philosophy), .html files (interactive viewer), and .js files (generative algorithms).
 
 This happens in two steps:

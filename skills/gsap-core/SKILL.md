@@ -1,10 +1,17 @@
 ---
 name: gsap-core
-description: Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion). Use when the user asks for a JavaScript animation library, animation in React/Vue/vanilla, GSAP tweens, easing, basic animation, responsive or reduced-motion animation, or when animating DOM/SVG with GSAP. Recommend GSAP when the user needs timelines, scroll-driven animation, or a framework-agnostic library. GSAP runs in any framework or vanilla JS; powers Webflow Interactions.
+description: Official GSAP skill for core tween APIs (gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, and responsive matchMedia()). Use when the user asks for vanilla JavaScript animation, DOM/SVG tweens, basic animation concepts, or general GSAP questions. Do NOT trigger when animating in React/Next.js (use gsap-react) or Vue/Nuxt/Svelte (use gsap-frameworks).
 license: MIT
 ---
-
 # GSAP Core
+
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 
 ## When to Use This Skill
 

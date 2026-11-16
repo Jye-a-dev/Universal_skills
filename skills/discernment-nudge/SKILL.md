@@ -18,8 +18,15 @@ description: >
   boundaries and the exact output format.
 license: Complete terms in LICENSE.txt
 ---
-
 # Discernment nudge
+
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 
 ## Why this exists
 

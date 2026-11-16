@@ -1,66 +1,70 @@
 ---
 name: ui-skills
-description: Chuẩn mực UI/UX Cyber-Escrow Fintech toàn diện cho dự án TrustPassz (Dark Theme Slate-950, Emerald/Cyan/Amber/Rose, Mobile-First Touch Targets >= 44px, Zero Layout Shift, Ngữ nghĩa Non-Tech, Giới hạn <= 400 dòng/file).
+description: "Universal UI/UX Engineering and Design System execution. Enforces responsive mobile-first layouts, strict touch targets (>= 44px), zero layout shift (CLS), comprehensive component states (loading/empty/error/disabled), and WCAG 2.1 AA accessibility standards. Adapts dynamically to any project's existing design tokens and CSS variables. Trigger when implementing UI components, forms, responsive layouts, or auditing UI/UX engineering."
 ---
 
-# UI-Skills Directive (TrustPassz Enterprise Standard)
+# Universal UI/UX Engineering & Design System Directive
 
-Bộ quy chuẩn UI/UX, Design System Tokens và tiêu chuẩn công thái học bắt buộc áp dụng đồng bộ trên toàn bộ hệ sinh thái **TrustPassz** (`apps/cl_user`, `apps/mb_user`, `apps/cl_admin`).
-
----
-
-## 1. Triết Lý Thiết Kế Cốt Lõi: Cyber-Escrow Fintech Dark Aesthetic
-
-TrustPassz định vị là nền tảng ký quỹ P2P tự hành kết hợp Web3 và AI Vision, nhưng mang trải nghiệm Web2 gần gũi[cite: 11, 19]. 
-* **Bề nổi (User Experience):** Tinh gọn, minh bạch, tin cậy, không rào cản thuật ngữ công nghệ phức tạp[cite: 11, 19].
-* **Chiều sâu (Visual Identity):** Sắc sảo, đậm chất công nghệ bảo mật (Cryptographic Dark Theme), tương phản cao, hỗ trợ bảng số liệu tài chính rõ ràng (Tabular Figures) và chuyển động vi mô (Micro-interactions) mượt mà[cite: 3, 15, 16].
+Bộ quy chuẩn kỹ thuật UI/UX, Design System Tokens và tiêu chuẩn công thái học giao diện người dùng, áp dụng độc lập cho mọi dự án phần mềm Web, Mobile và Desktop.
 
 ---
 
-## 2. Hệ Thống Màu & Design Tokens (Color & Token Matrix)
+## Global Target & Constraints
 
-### 2.1. Nền Tảng (Base Surfaces & Canvas)
-* **Background Root:** 
-  * Canvas chính: Slate-950 (`#0B0F17`)[cite: 16].
-  * Mobile Screen / Auth Canvas: Slate-950 Deep (`#080C14` / `#070A12`)[cite: 2, 3, 13].
-* **Card & Surface Containers:** 
-  * Thẻ Card chính: Slate-900 (`#0F172A`)[cite: 16].
-  * Card với hiệu ứng làm mờ: Slate-900 phủ trong suốt `bg-slate-900/80 backdrop-blur-md`[cite: 13, 21].
-  * Card hover elevation: Slate-800 (`#1E293B`)[cite: 12].
-  * Input Form Background: Pitch Dark (`#070A10`)[cite: 12].
-* **Borders & Dividers:** 
-  * Đường viền cấu trúc mặc định: Slate-800 (`#1E293B`) hoặc Zinc-800 (`#27272A`) với độ dày 1px[cite: 2, 4, 16].
-  * Đường viền active/focus: Slate-700 (`#334155`)[cite: 12].
-  * Đường viền phân cách mờ: `border-slate-800/60`.
-
-### 2.2. Bảng Màu Ngữ Nghĩa Trạng Thái (Semantic Status Colors)
-Tuyệt đối không dùng màu sắc ngẫu hứng; mọi dải màu phải biểu đạt chính xác trạng thái nghiệp vụ:
-
-| Ngữ nghĩa / Nghiệp vụ | Mã màu Hex | Tailwind Token | Ứng dụng cụ thể trong hệ thống |
-| :--- | :--- | :--- | :--- |
-| **An toàn / Ký quỹ thành công** | `#10B981` | `emerald-500` | Nút xác nhận nạp cọc, trạng thái `SETTLED`, tiền đã khóa an toàn on-chain, badge Base Sepolia online, tick xanh unbox. |
-| **Tương tác / Đàm phán / Webhook** | `#06B6D4` | `cyan-500` | Trạng thái `DEPOSITED`, `IN_INSPECTION`, track thanh trượt BargainSlider, kết nối Oracle Relayer, QR Scanner glow[cite: 4, 13]. |
-| **Cảnh báo / Inspection Countdown** | `#F59E0B` | `amber-500` | Đồng hồ đếm ngược đồng kiểm 6h–24h, cờ `ESCALATE_TO_ADMIN`, cảnh báo số dư Gas Relayer sắp hết[cite: 4, 13]. |
-| **Tranh chấp / Lỗi / Hủy / Hoàn tiền** | `#F43F5E` / `#EF4444` | `rose-500` / `red-500` | Trạng thái `DISPUTED`, `TRIGGER_REFUND`, nút Báo lỗi & Khiếu nại, cảnh báo node hạ nguồn ngắt kết nối[cite: 4, 13]. |
-| **Trí tuệ nhân tạo / sVLM Engine** | `#8B5CF6` | `violet-500` | Badge AI Arbitrator, tiến trình quét đa phương thức Outlines FSM, gợi ý giá tự động (AI Magic Fill)[cite: 12, 13, 26]. |
-
-### 2.3. Quy Chuẩn Kiểu Chữ (Typography Hierarchy)
-* **Font Family:** Ưu tiên Sans-serif hiện đại: `Inter`, `SF Pro Display`, `system-ui`.
-* **Tiêu đề chính (Headings):** Màu Slate-50 (`#F8FAFC`), độ đậm `font-semibold` hoặc `font-bold`[cite: 12].
-* **Nội dung thân (Body):** Màu Slate-200 (`#E2E8F0`), `font-normal`, chiều cao dòng `leading-relaxed`.
-* **Mô tả phụ & Muted Text:** Màu Slate-400 (`#94A3B8`) hoặc Slate-500 (`#64748B`). Đảm bảo độ tương phản tối thiểu $\ge 4.5:1$ theo tiêu chuẩn WCAG 2.1 AA đối với nền Slate-900/950[cite: 4, 12].
-* **Số liệu tài chính & Mã Hash:** BẮT BUỘC dùng Monospace (`font-mono`) và `tabular-nums` cho số tiền VND, địa chỉ ví, TxHash, đồng hồ đếm ngược để triệt tiêu hiện tượng giật rung chữ số khi cập nhật realtime[cite: 5, 8, 15].
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
 
 ---
 
-## 3. Tiêu Chuẩn Công Thái Học & Tương Tác Mobile-First
+## 1. Project Token Auto-Discovery (Khảo sát Design Tokens)
 
-### 3.1. Kích Thước Vùng Chạm (Strict Touch Targets $\ge 44\text{px}$)
-* **Quy tắc bất di bất dịch:** Mọi phần tử có thể click, tap, hoặc kéo (Buttons, Inputs, Slider Thumbs, Tabs, Checkboxes, Dropdown triggers, Nút đóng X, Icon Copy) BẮT BUỘC có diện tích tương tác tối thiểu $44 \times 44\text{ px}$ (`min-h-[44px] min-w-[44px]` hoặc `h-11`/`h-12`)[cite: 2, 4, 21].
-* **Nút hành động chính (Primary CTA):** Ưu tiên chiều cao `48px` đến `56px` (`h-12` hoặc `h-14`, `p-4` hoặc `p-5`) trên các màn hình di động[cite: 2, 10].
-* **Khoảng cách giữa các điểm chạm (Hitbox Separation):** Tối thiểu `8px` (`gap-2`) để loại bỏ tình trạng ngón tay chạm nhầm nút lân cận trên màn hình cảm ứng[cite: 4].
+Trước khi viết bất kỳ component hoặc styling nào, agent BẮT BUỘC phải trích xuất tokens hiện có của project đích:
+1. **Quét CSS Variables:** Tìm file `globals.css` / `theme.css` để lấy `--background`, `--foreground`, `--primary`, `--secondary`, `--accent`, `--muted`, `--destructive`, `--border`, `--radius`.
+2. **Quét Tailwind / Styling Config:** Tìm cấu hình trong `tailwind.config.ts`, `uno.config.ts`, hoặc theme object của dự án.
+3. **Thích ứng động:** Không hardcode mã màu hex mới nếu token tương ứng đã tồn tại trong hệ thống. Luôn dùng utility classes hoặc CSS variables chuẩn của dự án:
+   - Nền: `bg-background`, `bg-card`, `bg-muted`
+   - Chữ: `text-foreground`, `text-muted-foreground`, `text-primary`
+   - Viền: `border-border`, `border-input`
 
-### 3.2. Chống Xung Đột Cử Chỉ Vuốt (Gesture Conflict Elimination)
-* Mọi thành phần tương tác kéo ngang trên di động (như `BargainSlider`, Horizontal Gallery) PHẢI khai báo rõ thuộc tính CSS:
+---
+
+## 2. Tiêu Chuẩn Công Thái Học & Tương Tác Mobile-First
+
+### 2.1. Vùng Chạm Tối Thiểu (Strict Touch Targets $\ge 44\text{px}$)
+- **Quy tắc bất biến:** Mọi phần tử tương tác (Buttons, Inputs, Checkboxes, Dropdown triggers, Nút đóng X, Tabs, Icon buttons) BẮT BUỘC có diện tích chạm tối thiểu $44 \times 44\text{px}$ (`min-h-[44px] min-w-[44px]` hoặc `h-11`/`h-12`).
+- **Khoảng cách giữa các hitbox (Separation):** Tối thiểu `8px` (`gap-2`) để loại bỏ tình trạng ngón tay chạm nhầm nút lân cận trên màn hình cảm ứng.
+- **Nút hành động chính (Primary CTA):** Ưu tiên chiều cao `48px` đến `56px` trên mobile (`h-12` hoặc `h-14`, `w-full`).
+
+### 2.2. Kiểm Soát Cử Chỉ Vuốt (Gestures)
+- Với các thành phần kéo ngang (Sliders, Carousels, Horizontal Tabs), khai báo rõ thuộc tính CSS để tránh xung đột cuộn trang:
   ```css
-  touch-action: touch-pan-x;
+  touch-action: pan-y;
+  ```
+
+---
+
+## 3. Quản Lý Trạng Thái Component Toàn Diện (Component States Matrix)
+
+Mọi component tương tác dữ liệu PHẢI được thiết kế và xử lý đầy đủ 5 trạng thái:
+1. **Idle / Default:** Trạng thái sẵn sàng tương tác, rõ ràng về mặt phân cấp thị giác.
+2. **Loading:** Sử dụng Skeleton Screens phù hợp với kích thước nội dung thật (tránh nhảy bố cục Layout Shift) hoặc Spinner/Indicators với `aria-busy="true"`.
+3. **Empty / No Data:** Minh họa trạng thái trống rõ ràng, kèm thông điệp hướng dẫn hành động tiếp theo (CTA tạo mới dữ liệu).
+4. **Error:** Hiển thị thông báo lỗi cụ thể, dễ hiểu kèm nút "Thử lại" (Retry Action).
+5. **Disabled:** Làm mờ rõ rệt (`opacity-50 pointer-events-none cursor-not-allowed`), đảm bảo thuộc tính `aria-disabled="true"`.
+
+---
+
+## 4. Tối Ưu Bố Cục & Chống Giật Màn Hình (Zero Layout Shift - CLS)
+
+- **Kích thước định trước (Reserved Space):** Mọi hình ảnh, video, banner quảng cáo, hoặc dynamic widgets phải khai báo trước tỷ lệ khung hình (`aspect-ratio`, `min-h-[...]`, hoặc width/height tường minh).
+- **Tabular Figures cho số liệu động:** Luôn khai báo `tabular-nums` và `font-mono` cho các trường dữ liệu nhảy số liên tục (đồng hồ đếm ngược, tỷ giá, số dư tài chính, phần trăm tải) để ngăn chữ số rung giật ngang.
+- **Font Display:** Luôn sử dụng `font-display: swap` hoặc nạp font tối ưu qua framework (`next/font`) để triệt tiêu hiện tượng FOIT (Flash of Invisible Text).
+
+---
+
+## 5. Tiêu Chuẩn Tiếp Cận (Accessibility - WCAG 2.1 AA)
+
+- **Tỷ lệ tương phản màu (Contrast Ratio):** Tối thiểu $4.5:1$ cho văn bản thường và $3:1$ cho văn bản lớn ($\ge 18\text{pt}$ hoặc $\ge 14\text{pt}$ bold) và thành phần UI tương tác.
+- **Bàn phím & Focus Ring:** Mọi phần tử tương tác phải truy cập được qua phím Tab; trạng thái focus phải rõ ràng (`focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none`).
+- **Semantic HTML & ARIA:** Ưu tiên dùng HTML semantic (`<button>`, `<nav>`, `<main>`, `<dialog>`). Chỉ bổ sung `aria-label`, `aria-expanded`, `aria-describedby` khi thẻ gốc không truyền tải đủ ngữ nghĩa cho Screen Readers.

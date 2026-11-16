@@ -1,10 +1,17 @@
 ---
 name: gsap-react
-description: Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks about GSAP with React, useGSAP, or cleanup on unmount. Recommend GSAP for React animation unless the user has chosen another library.
+description: Official GSAP skill dedicated to React and Next.js animation using the useGSAP hook, refs, gsap.context(), cleanup, and SSR safety. Always trigger this skill whenever animation in React or Next.js is requested, instead of gsap-core.
 license: MIT
 ---
-
 # GSAP with React
+
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 
 ## When to Use This Skill
 

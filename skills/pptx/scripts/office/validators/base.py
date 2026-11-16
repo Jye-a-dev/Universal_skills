@@ -108,7 +108,9 @@ class BaseSchemaValidator:
         self.original_file = Path(original_file) if original_file else None
         self.verbose = verbose
 
-        self.schemas_dir = Path(__file__).parent.parent / "schemas"
+        shared_schemas = Path(__file__).resolve().parents[4] / "_shared" / "office" / "schemas"
+        local_schemas = Path(__file__).parent.parent / "schemas"
+        self.schemas_dir = shared_schemas if shared_schemas.exists() else local_schemas
 
         patterns = ["*.xml", "*.rels"]
         self.xml_files = [

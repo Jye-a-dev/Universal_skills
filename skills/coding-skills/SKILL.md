@@ -1,111 +1,90 @@
 ---
 name: coding-skills
-description: >-
-  Core technical standards and engineering workflows for the TrustPassz Monorepo.
-  Enforces Clean Architecture, Zero-Regression, max 400 lines per file limit,
-  100% strict TypeScript without '// TODO' placeholders, and zero-warning builds.
+description: "Universal software architecture, clean code standards, and engineering workflows. Enforces Clean/Hexagonal Architecture, SOLID principles, Zero-Regression TDD, strict typing, max 400 lines per file, and zero-warning builds across any tech stack (TypeScript, Python, Go, Rust, Java). Trigger when writing, refactoring, or structuring production codebase logic."
 ---
 
-# TrustPassz Coding Skills & Engineering Directives
+# Universal Software Architecture & Clean Code Directive
 
-Kỹ năng định hình quy chuẩn kỹ thuật cho toàn bộ Monorepo TrustPassz (Next.js 15, NestJS Prisma, Solidity Foundry, FastAPI). Mọi thành viên và AI coding agent đều phải tuân thủ nghiêm ngặt các nguyên tắc dưới đây.
+Bộ quy chuẩn kỹ thuật toàn diện về Kiến trúc phần mềm, Clean Code và quy trình kỹ thuật sản xuất, áp dụng độc lập cho mọi dự án phần mềm và công nghệ.
 
 ---
 
-## 1. Clean Architecture & Layer Separation
+## Global Target & Constraints
 
-Kiến trúc mã nguồn được phân tách rõ ràng theo các tầng độc lập:
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
 
-1. **Domain Layer (Core Entities & Interfaces):**
-   - Chứa business logic thuần túy và entity models.
-   - Hoàn toàn không phụ thuộc vào framework, database (ORM/Prisma), hoặc thư viện bên ngoài.
+---
+
+## 1. Clean Architecture & Layer Separation (Phân tách tầng kiến trúc)
+
+Mã nguồn mọi hệ thống nghiệp vụ cần phân định rõ ràng các ranh giới kiến trúc độc lập:
+
+1. **Domain Layer (Entities & Value Objects):**
+   - Chứa quy tắc nghiệp vụ cốt lõi (Core Business Rules).
+   - Tuyệt đối độc lập với frameworks, databases (ORM, SQL), giao thức mạng, hoặc thư viện bên ngoài.
+   - Định nghĩa các Ports / Interfaces mà các tầng ngoài phải triển khai.
 
 2. **Application / Use Case Layer:**
-   - Điều phối luồng nghiệp vụ (Escrow lifecycle, dispute resolution, authentication, settlement).
-   - Tương tác với Domain thông qua interfaces/ports; không gắn chặt với transport layer (HTTP/gRPC/WebSocket).
+   - Điều phối luồng nghiệp vụ cụ thể của ứng dụng (Commands, Queries, Workflows).
+   - Phụ thuộc vào Domain Layer; tương tác với hệ thống ngoài thông qua Interfaces; độc lập với giao thức truyền tải (HTTP, gRPC, CLI, WebSocket).
 
-3. **Infrastructure Layer:**
-   - Triển khai cụ thể các adapters: Prisma ORM, blockchain client (viem/ethers/Foundry), Redis, FastAPI service callers.
-   - Mọi cấu hình kết nối, logging, external APIs đều nằm tại đây.
+3. **Infrastructure Layer (Adapters & External Integrations):**
+   - Triển khai cụ thể các Ports/Interfaces: Database Clients (Prisma, TypeORM, SQLAlchemy, GORM), Cache (Redis), Message Queues (Kafka, RabbitMQ), Email/SMS providers, External APIs.
+   - Quản lý cấu hình kết nối, logging, secret loading và telemetry.
 
-4. **Presentation Layer:**
-   - NestJS Controllers, Next.js Server Components, React UI Components, React Native Screens.
-   - Chỉ chịu trách nhiệm validate request/payload DTO và định dạng response; không nhồi nhét business logic.
+4. **Presentation / Transport Layer:**
+   - Controllers, Routers, GraphQL Resolvers, RPC Handlers, UI Components.
+   - Chịu trách nhiệm deserialize/validate request DTOs và serialize response; chuyển giao việc thực thi cho Use Cases; không chứa logic nghiệp vụ.
 
 ---
 
-## 2. Zero-Regression Protocol
+## 2. Zero-Regression Protocol (Quy trình chống hồi quy lỗi)
 
-Mọi sự thay đổi (refactor, feature mới, bug fix) đều phải đảm bảo không phá vỡ tính tương thích ngược và không gây hồi quy (Zero-Regression):
+Mọi thay đổi (refactor, thêm tính năng, sửa lỗi) phải bảo đảm không phá vỡ tính tương thích ngược:
 
-1. **Kiểm tra Dependency Graph:**
-   - Trước khi sửa đổi bất kỳ API, Schema, hoặc Smart Contract interface nào, phải đối soát toàn bộ chuỗi phụ thuộc:
-     $$\text{Contracts} \longrightarrow \text{Server (NestJS)} \longrightarrow \text{cl\_user (Web)} \; / \; \text{mb\_user (Mobile)}$$
-   - Sử dụng `graphify` để rà soát các điểm gọi hàm (callsites) và kiểu dữ liệu dùng chung.
+1. **Phân tích Dependency Graph:**
+   - Trước khi sửa đổi bất kỳ Public API, Database Schema, hoặc Shared Interface nào, phải truy vết toàn bộ các điểm gọi hàm (callsites) và consumer downstream.
+   - Nếu có breaking change, bắt buộc thiết lập lộ trình chuyển tiếp (Deprecation Warning $\to$ Migration Guide $\to$ Graceful Cutover).
 
-2. **Schema & Contract Compatibility:**
-   - Tuyệt đối không thay đổi kiểu trả về hoặc xóa trường dữ liệu đang được các client sử dụng mà chưa có deprecation path.
-   - Các migration Prisma hoặc smart contract ABI updates phải đi kèm test hồi quy.
+2. **Contract-First & Schema Validation:**
+   - Mọi payload trao đổi qua mạng (API REST, WebSocket, Event Bus) phải có Schema xác thực chặt chẽ (Zod, Pydantic, Protobuf, JSON Schema).
+   - Migration dữ liệu phải kiểm tra tính tương thích hai chiều (Forward & Backward Compatible).
 
 3. **Automated Verification:**
-   - Mọi pull request / thay đổi code phải chạy qua suite test tự động (Unit test, Integration test).
-   - Đảm bảo các luồng Escrow nạp tiền, giữ tiền, giải ngân và tranh chấp hoạt động đúng 100%.
+   - Mọi thay đổi code phải được kiểm thử tự động (Unit Test cho Domain Logic, Integration Test cho Adapters).
+   - Chặn merge code nếu có bất kỳ test case nào thất bại hoặc độ bao phủ suy giảm nghiêm trọng.
 
 ---
 
-## 3. Quy tắc giới hạn kích thước tệp (Max 400 Lines per File)
+## 3. Quy Tắc Giới Hạn File (Max 400 Lines per File)
 
-Nhằm đảm bảo tính đơn nhiệm (Single Responsibility Principle) và khả năng bảo trì:
+Nhằm đảm bảo nguyên lý đơn nhiệm (Single Responsibility Principle) và duy trì khả năng đọc hiểu:
 
-- **Giới hạn cứng:** Không có bất kỳ tệp mã nguồn nào (`.ts`, `.tsx`, `.sol`, `.py`) vượt quá **400 dòng code**.
-- **Cách phân rã khi tệp tiến gần ngưỡng 300-350 dòng:**
-  - Tách các sub-components trong UI thành các file riêng biệt trong thư mục `components/`.
-  - Tách custom hooks ra file riêng (`useEscrowStatus.ts`, `useBargainSlider.ts`).
-  - Tách types, interfaces, và validation schemas ra `types.ts` hoặc `schema.ts`.
-  - Tách helper/utility functions ra thư mục `utils/`.
-  - Tách service methods phức tạp thành các use-case classes chuyên biệt.
-
----
-
-## 4. TypeScript Strict Mode 100% & Anti-Placeholder Policy
-
-1. **Strict Type-Safety:**
-   - Bật toàn bộ flags nghiêm ngặt: `strict: true`, `noImplicitAny: true`, `strictNullChecks: true`.
-   - Cấm sử dụng `any`. Mọi kiểu dữ liệu không xác định phải dùng `unknown` kèm type narrowing (type guards / Zod validation).
-   - Mọi generic, promise và event handler phải được định kiểu tường minh.
-
-2. **Cấm Placeholder & Pseudo-code:**
-   - **Tuyệt đối không dùng** `// TODO`, `// FIXME`, `/* Implement later */`, hoặc mock rỗng trong code đẩy lên repository.
-   - Mọi hàm, method, và nhánh điều kiện đều phải được triển khai hoàn chỉnh, có error handling và return type chính xác.
+- **Giới hạn cứng:** Không một tệp mã nguồn nào (`.ts`, `.tsx`, `.py`, `.go`, `.rs`, `.java`) được vượt quá **400 dòng code**.
+- **Giải pháp xử lý khi file phình to:**
+  - Tách logic phụ trợ thành các helper modules hoặc custom hooks.
+  - Tách các kiểu dữ liệu và interfaces ra file `types.ts` hoặc schema riêng.
+  - Sử dụng Composition: Chia nhỏ component cha thành các sub-components độc lập.
+  - Tách query/mutation hooks ra khỏi giao diện hiển thị.
 
 ---
 
-## 5. Độc lập Build Toolchain & Zero-Warning
+## 4. Strict Typing & Zero-Warning Builds
 
-1. **Độc lập giữa các package:**
-   - Mỗi ứng dụng (`apps/server`, `apps/cl_user`, `apps/mb_user`, `packages/contracts`, `apps/ai_service`) phải có quy trình build độc lập, khai báo dependencies tường minh trong `package.json` tương ứng.
-   - Không được import lậu qua lại ngoài boundary cho phép của monorepo.
-
-2. **Zero-Warning Compilation:**
-   - Quá trình biên dịch TypeScript (`tsc --noEmit`), linter (`eslint`), và build Next.js/NestJS phải đạt trạng thái **0 errors, 0 warnings**.
-   - Cấm vô hiệu hóa linter bằng `// eslint-disable-next-line` vô tội vạ trừ trường hợp bất khả kháng có giải thích cụ thể.
+- **Chống Type Escape:**
+  - Tuyệt đối cấm sử dụng kiểu thoát `any`, `unknown` không có type guard, hoặc ép kiểu ép buộc bừa bãi (`as any`).
+  - Mọi hàm công khai phải khai báo tường minh kiểu tham số đầu vào và kiểu trả về.
+- **Loại bỏ Dead Code & Placeholders:**
+  - Tuyệt đối không để lại các chú thích giữ chỗ sơ sài (`// TODO`, `// FIX ME`, `pass`).
+  - Xóa bỏ toàn bộ biến không sử dụng (unused variables), imports thừa và console logs thử nghiệm.
+- **Zero-Warning Standard:** Mã nguồn phải vượt qua trình linter (`eslint`, `ruff`, `golangci-lint`, `clippy`) và trình biên dịch với 0 errors và 0 warnings.
 
 ---
 
-## 6. Chính Sách Cấm Mock User & Bắt Buộc Đăng Nhập Thực (Strict Authentic Auth & Anti-Mock User Policy)
+## 5. Xử Lý Lỗi An Toàn & Tường Minh (Safe Error Handling)
 
-Nhằm bảo vệ tính toàn vẹn bảo mật của cơ sở dữ liệu và tuân thủ chuẩn ISO/IEC 27001 và Web3 Security:
-
-1. **Cấm tuyệt đối Mock User:**
-   - Nghiêm cấm tạo, inject hoặc hardcode mock user (bao gồm `dev-tester@trustpassz.io` hoặc bất kỳ dummy test user nào) trong toàn bộ codebase, bao gồm database seeder, mock fixtures, unit/integration tests và mobile/web client.
-   - Bất kỳ tài khoản người dùng nào tồn tại trong hệ thống đều phải xuất phát từ quy trình đăng ký/đăng nhập thực tế.
-
-2. **Quy trình Kiểm thử Luồng Người dùng (User Flow Testing):**
-   - Mọi kịch bản kiểm thử (E2E, API tests, Regression tests) bắt buộc phải đăng nhập thật qua một trong các giao thức xác thực chính thức:
-     * **Google OAuth 2.0 / OpenID Connect** với ID Token hợp lệ.
-     * **FIDO2 / WebAuthn Passkeys** với chữ ký phần cứng.
-     * **Web3 SIWS (Sign-In with Solana)** hoặc **SIWE (Sign-In with Ethereum / Base)** với chữ ký mật mã từ ví thực tế.
-     * **Tài khoản Email/Mật khẩu chính thức** với cơ chế xác thực OTP / 2FA.
-   - Nghiêm cấm tạo backdoor, mock user bypass, hoặc cờ tắt kiểm tra bảo mật trong môi trường dev hay testing.
-
-
+- Không bao giờ nuốt lỗi trong khối `catch` trống (`catch (e) {}` không xử lý).
+- Phân biệt rõ ràng giữa **Lỗi nghiệp vụ dự kiến** (Expected Domain Errors - ví dụ `InsufficientFunds`, `UserNotFound`) và **Lỗi hệ thống bất ngờ** (Unexpected Infrastructure Errors - ví dụ `DatabaseTimeout`, `NetworkCrash`).
+- Ưu tiên mô hình Result/Either hoặc Exception có kiểu cụ thể (Typed Custom Exceptions) thay vì quăng lỗi chuỗi thô (`throw new Error("fail")`).

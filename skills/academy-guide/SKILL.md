@@ -17,8 +17,15 @@ description: >
   match; never invent Academy content.
 license: Complete terms in LICENSE.txt
 ---
-
 # Claude Academy guide
+
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+---
 
 ## Purpose
 
@@ -79,7 +86,7 @@ often the better recommendation than any single item.
 
 4. **Keep it brief and natural.** After your answer, add a short line like:
 
-   > You might also find this helpful: [Title](URL) — one-sentence description.
+   > You might also find this helpful: `[Title](URL)` — one-sentence description.
 
    Do not list more than 2 items. One is usually best. This cap applies
    to every reply, including when the question itself is a request for

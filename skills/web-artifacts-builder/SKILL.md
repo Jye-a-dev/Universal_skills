@@ -6,6 +6,21 @@ license: Complete terms in LICENSE.txt
 
 # Web Artifacts Builder
 
+## Global Target & Constraints
+
+This skill strictly inherits and complies with:
+- [target.md](../../.skills/target.md): Universal Portability & Project Auto-Discovery Protocol.
+- [contraint.md](../../.skills/contraint.md): Security Red Lines, Zero Project Hardcoding, and Non-destructive Operations.
+
+### Cross-Platform & Windows Compatibility
+The helper scripts `scripts/init-artifact.sh` and `scripts/bundle-artifact.sh` require a POSIX-compatible shell environment:
+- **Linux & macOS:** Run directly via `bash scripts/init-artifact.sh <project-name>` and `bash scripts/bundle-artifact.sh`.
+- **Windows:** Run inside **Git Bash**, **WSL (Windows Subsystem for Linux)**, or execute equivalent manual commands:
+  - Init: `npx create-vite@latest <project-name> --template react-ts`, unpack `tar -xzf scripts/shadcn-components.tar.gz`, install dependencies (`pnpm install`).
+  - Bundle: `npx parcel build index.html --dist-dir dist`.
+
+---
+
 To build powerful frontend claude.ai artifacts, follow these steps:
 1. Initialize the frontend repo using `scripts/init-artifact.sh`
 2. Develop your artifact by editing the generated code
