@@ -135,7 +135,7 @@ Những gì bạn nhận được ngay từ đầu:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-Mọi hệ thống đều chạy trên cùng một harness với cùng mô hình và ngân sách, được chấm điểm bởi một giám khảo đã được kiểm chứng mù đối chiếu với một giám khảo thứ hai (90.6% agreement, Cohen's kappa 0.81). Bảng đầy đủ theo từng hệ thống, kết quả hiểu code, và các lệnh tái lập: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Mọi hệ thống đều chạy trên cùng một harness với cùng mô hình và ngân sách, được chấm điểm bởi một giám khảo đã được kiểm chứng mù đối chiếu với một giám khảo thứ hai (90.6% agreement, Cohen's kappa 0.81). Bảng đầy đủ theo từng hệ thống, kết quả hiểu code, và các lệnh tái lập: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -454,7 +454,7 @@ Mọi lệnh và cờ, kèm ví dụ: **[CLI reference](https://docs.graphify.co
 
 ## Đóng góp
 
-Hoan nghênh đóng góp. Xem **[CONTRIBUTING.md](../../CONTRIBUTING.md)** để biết thiết lập môi trường phát triển, các lệnh kiểm thử và CI-parity, quy trình git, và điều gì làm nên một đóng góp mạnh (các ví dụ thực tế và báo cáo lỗi trích xuất là hữu ích nhất). Kiến trúc và cách thêm một ngôn ngữ: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Hoan nghênh đóng góp. Xem **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** để biết thiết lập môi trường phát triển, các lệnh kiểm thử và CI-parity, quy trình git, và điều gì làm nên một đóng góp mạnh (các ví dụ thực tế và báo cáo lỗi trích xuất là hữu ích nhất). Kiến trúc và cách thêm một ngôn ngữ: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Mới đến? Chào một tiếng trên [Discord](https://discord.gg/graphify) hoặc trong [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

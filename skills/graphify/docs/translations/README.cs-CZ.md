@@ -137,7 +137,7 @@ Co dostanete rovnou z krabice:
 | ERPNext cross-tool (n=6) | pokrytí klíčových faktů | **82.0%** | základní linie grep/read 70.8% |
 | Sestavení grafu | LLM kredity | **0** | za token u většiny systémů |
 
-Každý systém běžel na stejném harnessu se stejným modelem a rozpočty, hodnocen porotcem naslepo validovaným proti druhému porotci (90.6% shoda, Cohenovo kappa 0.81). Úplné tabulky po jednotlivých systémech, výsledek kódové inteligence a příkazy pro reprodukci: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Každý systém běžel na stejném harnessu se stejným modelem a rozpočty, hodnocen porotcem naslepo validovaným proti druhému porotci (90.6% shoda, Cohenovo kappa 0.81). Úplné tabulky po jednotlivých systémech, výsledek kódové inteligence a příkazy pro reprodukci: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Každý příkaz a přepínač, s příklady: **[CLI reference](https://docs.gra
 
 ## Přispívání
 
-Příspěvky jsou vítány. Viz **[CONTRIBUTING.md](../../CONTRIBUTING.md)** pro vývojové nastavení, příkazy pro testy a paritu s CI, git workflow a to, co dělá silný příspěvek (vypracované příklady a hlášení chyb extrakce jsou nejužitečnější). Architektura a jak přidat jazyk: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Příspěvky jsou vítány. Viz **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** pro vývojové nastavení, příkazy pro testy a paritu s CI, git workflow a to, co dělá silný příspěvek (vypracované příklady a hlášení chyb extrakce jsou nejužitečnější). Architektura a jak přidat jazyk: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Jste tu noví? Pozdravte nás na [Discordu](https://discord.gg/graphify) nebo v [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

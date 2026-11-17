@@ -49,3 +49,18 @@ Danh mục các điều cấm tuyệt đối áp dụng bắt buộc trên toàn
 
 1. **Không tự ý xóa file:** Tuyệt đối không thực thi các lệnh xóa tệp mã nguồn (`rm -rf`, `Remove-Item`) hoặc drop database/tables của dự án đích khi chưa có sự xác nhận của người dùng.
 2. **Không ghi đè cấu hình âm thầm:** Khi chỉnh sửa file cấu hình cốt lõi (`tsconfig.json`, `package.json`, `.env`), phải bảo tồn toàn bộ các cấu hình hiện hữu, chỉ bổ sung hoặc cập nhật trường cần thiết.
+
+---
+
+## 5. Project-Specific Prohibitions (Template Constraints)
+
+<!-- 
+[CLONE-AND-GO TEMPLATE PLACEHOLDERS]
+Khi clone repository này sang một dự án mới, người dùng có thể bổ sung các lằn ranh đỏ hoặc vùng cấm đặc thù của riêng dự án đó tại đây:
+-->
+
+- **Protected Directories (Vùng cấm sửa đổi tự ý):** `[e.g., migrations/, legacy/, .github/workflows/]`
+- **Restricted Endpoints / APIs (Cấm gọi trực tiếp):** `[e.g., payment gateway production endpoints, admin-internal APIs]`
+- **Disallowed Packages / Libs:** `[e.g., Không dùng Moment.js (dùng date-fns), Không dùng jQuery]`
+- **Custom Business Invariants:** `[Các luật bất biến trong nghiệp vụ của riêng dự án]`
+

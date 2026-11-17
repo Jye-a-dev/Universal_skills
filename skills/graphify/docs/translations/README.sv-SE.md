@@ -137,7 +137,7 @@ Vad du får direkt ur lådan:
 | ERPNext flera verktyg (n=6) | täckning av nyckelfakta | **82.0%** | grep/read-baslinje 70.8% |
 | Grafbygge | LLM-krediter | **0** | per token för de flesta system |
 
-Varje system kördes på samma testrigg med samma modell och budgetar, bedömt av en domare blindvaliderad mot en andra domare (90.6% överensstämmelse, Cohens kappa 0.81). Fullständiga tabeller per system, resultatet för kodintelligens och kommandon för reproduktion: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Varje system kördes på samma testrigg med samma modell och budgetar, bedömt av en domare blindvaliderad mot en andra domare (90.6% överensstämmelse, Cohens kappa 0.81). Fullständiga tabeller per system, resultatet för kodintelligens och kommandon för reproduktion: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Alla kommandon och flaggor, med exempel: **[CLI-referens](https://docs.graphify.
 
 ## Bidra
 
-Bidrag är välkomna. Se **[CONTRIBUTING.md](../../CONTRIBUTING.md)** för utvecklingsmiljön, kommandona för test och CI-paritet, git-arbetsflödet och vad som gör ett starkt bidrag (utarbetade exempel och felrapporter om extraktion är mest användbara). Arkitektur och hur man lägger till ett språk: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Bidrag är välkomna. Se **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** för utvecklingsmiljön, kommandona för test och CI-paritet, git-arbetsflödet och vad som gör ett starkt bidrag (utarbetade exempel och felrapporter om extraktion är mest användbara). Arkitektur och hur man lägger till ett språk: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Ny här? Säg hej på [Discord](https://discord.gg/graphify) eller i [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

@@ -137,7 +137,7 @@ Kutudan çıktığı haliyle elde ettikleriniz:
 | ERPNext araçlar arası (n=6) | anahtar-olgu kapsamı | **82.0%** | grep/read referansı 70.8% |
 | Grafik oluşturma | LLM kredileri | **0** | çoğu sistemde token başına |
 
-Her sistem aynı koşum takımında, aynı model ve bütçelerle çalıştırıldı; ikinci bir yargıca karşı körlemesine doğrulanmış bir yargıç tarafından puanlandı (%90.6 uyum, Cohen kappa 0.81). Tüm sistem bazında tablolar, kod zekası sonucu ve yeniden üretme komutları: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Her sistem aynı koşum takımında, aynı model ve bütçelerle çalıştırıldı; ikinci bir yargıca karşı körlemesine doğrulanmış bir yargıç tarafından puanlandı (%90.6 uyum, Cohen kappa 0.81). Tüm sistem bazında tablolar, kod zekası sonucu ve yeniden üretme komutları: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Yaygın kurulum ve çıkarım sorunları ve bunların çözümleri: **[Sorun gid
 
 ## Katkıda bulunma
 
-Katkılar memnuniyetle karşılanır. Geliştirme kurulumu, test ve CI eşitlik komutları, git iş akışı ve güçlü bir katkıyı neyin oluşturduğu (işlenmiş örnekler ve çıkarım hata raporları en yararlı olanlardır) için **[CONTRIBUTING.md](../../CONTRIBUTING.md)** dosyasına bakın. Mimari ve bir dilin nasıl ekleneceği: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Katkılar memnuniyetle karşılanır. Geliştirme kurulumu, test ve CI eşitlik komutları, git iş akışı ve güçlü bir katkıyı neyin oluşturduğu (işlenmiş örnekler ve çıkarım hata raporları en yararlı olanlardır) için **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** dosyasına bakın. Mimari ve bir dilin nasıl ekleneceği: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Buraya yeni mi geldiniz? [Discord](https://discord.gg/graphify) üzerinde veya [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions) içinde selam verin.
 

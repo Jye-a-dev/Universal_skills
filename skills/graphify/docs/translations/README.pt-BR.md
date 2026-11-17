@@ -137,7 +137,7 @@ O que você obtém de imediato:
 | ERPNext cross-tool (n=6) | cobertura de fatos-chave | **82.0%** | baseline grep/read 70.8% |
 | Construção do grafo | créditos de LLM | **0** | por token na maioria dos sistemas |
 
-Todos os sistemas rodaram no mesmo harness com o mesmo modelo e orçamentos, avaliados por um juiz validado às cegas contra um segundo juiz (90.6% de concordância, kappa de Cohen 0.81). Tabelas completas por sistema, o resultado de inteligência de código e comandos de reprodução: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Todos os sistemas rodaram no mesmo harness com o mesmo modelo e orçamentos, avaliados por um juiz validado às cegas contra um segundo juiz (90.6% de concordância, kappa de Cohen 0.81). Tabelas completas por sistema, o resultado de inteligência de código e comandos de reprodução: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ O [**Graphify Cloud**](https://app.graphify.com/login) é a camada sempre ativa 
 
 ## Contribuindo
 
-Contribuições são bem-vindas. Veja **[CONTRIBUTING.md](../../CONTRIBUTING.md)** para a configuração de desenvolvimento, os comandos de teste e de paridade com a CI, o fluxo de trabalho do git, e o que faz uma contribuição forte (exemplos resolvidos e relatórios de bugs de extração são os mais úteis). Arquitetura e como adicionar uma linguagem: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Contribuições são bem-vindas. Veja **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** para a configuração de desenvolvimento, os comandos de teste e de paridade com a CI, o fluxo de trabalho do git, e o que faz uma contribuição forte (exemplos resolvidos e relatórios de bugs de extração são os mais úteis). Arquitetura e como adicionar uma linguagem: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Novo por aqui? Diga oi no [Discord](https://discord.gg/graphify) ou nas [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

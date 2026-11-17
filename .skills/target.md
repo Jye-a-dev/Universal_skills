@@ -57,3 +57,19 @@ Trước khi thực hiện bất kỳ hành động sinh mã, cập nhật file 
 2. **Quy tắc giải quyết xung đột:** Nếu có mâu thuẫn giữa hướng dẫn chi tiết trong sub-skill và `.skills/target.md`, ưu tiên cao nhất luôn thuộc về:
    $$\text{.skills/contraint.md} \;>\; \text{.skills/target.md} \;>\; \text{skills/<skill-name>/SKILL.md}$$
 3. **Cơ chế nạp:** Agent khi kích hoạt bất kỳ skill con nào bắt buộc phải kiểm tra và áp dụng context của `.skills/target.md` vào giải pháp đưa ra cho người dùng.
+
+---
+
+## 5. Project-Specific Overrides (Template Parameters)
+
+<!-- 
+[CLONE-AND-GO TEMPLATE PLACEHOLDERS]
+Khi clone repository này sang một dự án mới, người dùng có thể tùy ý điền các thông số bên dưới để định hình ngữ cảnh nhanh cho AI Agent (hoặc để trống để AI kích hoạt 100% cơ chế Auto-Discovery ở Mục 1):
+-->
+
+- **Project Name:** `[Tên dự án mới - e.g., MyAwesomeApp]`
+- **Primary Tech Stack:** `[Framework & Runtime - e.g., Next.js 15 (App Router), TypeScript, Tailwind CSS, Prisma]`
+- **Repository Structure:** `[Monorepo / Polyrepo / Single App - e.g., src/app, src/components, src/lib]`
+- **Design System / Theme:** `[UI Tokens & Styling - e.g., shadcn/ui, Slate + Indigo palette, 8px radius]`
+- **Custom Architecture Notes:** `[Bất kỳ quy ước kiến trúc bổ sung nào của riêng dự án này]`
+

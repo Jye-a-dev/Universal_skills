@@ -135,7 +135,7 @@ Shortest path (3 hops):
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-모든 시스템은 동일한 하니스에서 동일한 모델과 예산으로 실행되었고, 두 번째 심사자에 대해 블라인드 검증된 심사자가 채점했습니다(90.6% agreement, Cohen's kappa 0.81). 시스템별 전체 표, 코드 인텔리전스 결과, 재현 명령은 다음을 참고하세요: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+모든 시스템은 동일한 하니스에서 동일한 모델과 예산으로 실행되었고, 두 번째 심사자에 대해 블라인드 검증된 심사자가 채점했습니다(90.6% agreement, Cohen's kappa 0.81). 시스템별 전체 표, 코드 인텔리전스 결과, 재현 명령은 다음을 참고하세요: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -454,7 +454,7 @@ AI 어시스턴트 외에도, `graphify query`, `graphify path`, `graphify expla
 
 ## 기여하기
 
-기여를 환영합니다. 개발 환경 설정, 테스트 및 CI-parity 명령, git 워크플로, 그리고 무엇이 강력한 기여가 되는지(실제 예시와 추출 버그 리포트가 가장 유용합니다)는 **[CONTRIBUTING.md](../../CONTRIBUTING.md)** 를 참고하세요. 아키텍처와 언어 추가 방법: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+기여를 환영합니다. 개발 환경 설정, 테스트 및 CI-parity 명령, git 워크플로, 그리고 무엇이 강력한 기여가 되는지(실제 예시와 추출 버그 리포트가 가장 유용합니다)는 **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** 를 참고하세요. 아키텍처와 언어 추가 방법: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 처음이신가요? [Discord](https://discord.gg/graphify) 또는 [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions) 에서 인사해 주세요.
 

@@ -137,7 +137,7 @@ Shortest path (3 hops):
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-हर सिस्टम को एक ही हार्नेस पर, एक ही मॉडल और बजट के साथ चलाया गया, और एक जज द्वारा स्कोर किया गया जिसे दूसरे जज के विरुद्ध ब्लाइंड-वैलिडेट किया गया (90.6% सहमति, Cohen's kappa 0.81)। हर सिस्टम की पूरी तालिकाएं, कोड-इंटेलिजेंस परिणाम, और पुनरुत्पादन कमांड: **[BENCHMARKS.md](../../BENCHMARKS.md)**।
+हर सिस्टम को एक ही हार्नेस पर, एक ही मॉडल और बजट के साथ चलाया गया, और एक जज द्वारा स्कोर किया गया जिसे दूसरे जज के विरुद्ध ब्लाइंड-वैलिडेट किया गया (90.6% सहमति, Cohen's kappa 0.81)। हर सिस्टम की पूरी तालिकाएं, कोड-इंटेलिजेंस परिणाम, और पुनरुत्पादन कमांड: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**।
 
 ---
 
@@ -462,7 +462,7 @@ viz_node_limit=0
 
 ## योगदान
 
-योगदान का स्वागत है। डेवलपमेंट सेटअप, टेस्ट और CI-समतुल्य कमांड, git वर्कफ़्लो, और क्या एक मजबूत योगदान बनाता है (worked examples और एक्सट्रैक्शन बग रिपोर्ट सबसे उपयोगी हैं) के लिए **[CONTRIBUTING.md](../../CONTRIBUTING.md)** देखें। आर्किटेक्चर और कोई भाषा कैसे जोड़ें: [ARCHITECTURE.md](../../ARCHITECTURE.md)।
+योगदान का स्वागत है। डेवलपमेंट सेटअप, टेस्ट और CI-समतुल्य कमांड, git वर्कफ़्लो, और क्या एक मजबूत योगदान बनाता है (worked examples और एक्सट्रैक्शन बग रिपोर्ट सबसे उपयोगी हैं) के लिए **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** देखें। आर्किटेक्चर और कोई भाषा कैसे जोड़ें: [ARCHITECTURE.md](../../ARCHITECTURE.md)।
 
 यहां नए हैं? [Discord](https://discord.gg/graphify) पर या [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions) में नमस्ते कहें।
 

@@ -137,7 +137,7 @@ Apa yang Anda dapatkan langsung dari awal:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-Setiap sistem dijalankan pada harness yang sama dengan model dan anggaran yang sama, dinilai oleh seorang juri yang divalidasi secara buta terhadap juri kedua (kesepakatan 90,6%, Cohen's kappa 0,81). Tabel lengkap per sistem, hasil code-intelligence, dan perintah reproduksi: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Setiap sistem dijalankan pada harness yang sama dengan model dan anggaran yang sama, dinilai oleh seorang juri yang divalidasi secara buta terhadap juri kedua (kesepakatan 90,6%, Cohen's kappa 0,81). Tabel lengkap per sistem, hasil code-intelligence, dan perintah reproduksi: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Setiap perintah dan flag, dengan contoh: **[CLI reference](https://docs.graphify
 
 ## Berkontribusi
 
-Kontribusi disambut baik. Lihat **[CONTRIBUTING.md](../../CONTRIBUTING.md)** untuk penyiapan pengembangan, perintah test dan CI-parity, alur kerja git, dan apa yang membuat kontribusi kuat (worked examples dan laporan bug ekstraksi adalah yang paling berguna). Arsitektur dan cara menambahkan bahasa: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Kontribusi disambut baik. Lihat **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** untuk penyiapan pengembangan, perintah test dan CI-parity, alur kerja git, dan apa yang membuat kontribusi kuat (worked examples dan laporan bug ekstraksi adalah yang paling berguna). Arsitektur dan cara menambahkan bahasa: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Baru di sini? Sapa di [Discord](https://discord.gg/graphify) atau di [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

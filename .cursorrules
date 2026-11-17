@@ -1,3 +1,7 @@
 # Cursor IDE Entrypoint
 
-Always read and follow AGENTS.md, .skills/contraint.md, .skills/target.md, and skills/llms.txt before executing tasks.
+Before executing any task or generating code, Cursor must strictly follow the initialization protocol:
+1. Read constraints: `.skills/contraint.md`
+2. Read target architecture: `.skills/target.md` (execute Project Auto-Discovery Protocol)
+3. Scan skill index: `skills/llms.txt` and load corresponding `skills/<skill-name>/SKILL.md`
+4. Refer to `AGENTS.md` for core routing rules.

@@ -137,7 +137,7 @@ Ce obțineți direct din cutie:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | referință grep/read 70.8% |
 | Graph build | LLM credits | **0** | per token la majoritatea sistemelor |
 
-Fiecare sistem a rulat pe același harness cu același model și aceleași bugete, punctat de un evaluator validat orb față de un al doilea evaluator (90.6% acord, kappa Cohen 0.81). Tabelele complete per sistem, rezultatul de inteligență a codului și comenzile de reproducere: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Fiecare sistem a rulat pe același harness cu același model și aceleași bugete, punctat de un evaluator validat orb față de un al doilea evaluator (90.6% acord, kappa Cohen 0.81). Tabelele complete per sistem, rezultatul de inteligență a codului și comenzile de reproducere: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Fiecare comandă și opțiune, cu exemple: **[Referința CLI](https://docs.graph
 
 ## Contribuții
 
-Contribuțiile sunt binevenite. Vedeți **[CONTRIBUTING.md](../../CONTRIBUTING.md)** pentru configurarea de dezvoltare, comenzile de test și de paritate cu CI, fluxul de lucru git și ce înseamnă o contribuție puternică (exemplele lucrate și rapoartele de erori de extracție sunt cele mai utile). Arhitectura și cum să adăugați un limbaj: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Contribuțiile sunt binevenite. Vedeți **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** pentru configurarea de dezvoltare, comenzile de test și de paritate cu CI, fluxul de lucru git și ce înseamnă o contribuție puternică (exemplele lucrate și rapoartele de erori de extracție sunt cele mai utile). Arhitectura și cum să adăugați un limbaj: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Nou aici? Salutați pe [Discord](https://discord.gg/graphify) sau în [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

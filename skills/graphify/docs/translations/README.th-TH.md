@@ -135,7 +135,7 @@ Shortest path (3 hops):
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-ทุกระบบรันบนฮาร์เนสเดียวกัน ด้วยโมเดลและงบประมาณเดียวกัน ให้คะแนนโดยผู้ตัดสินที่ผ่านการตรวจสอบแบบปิดตาเทียบกับผู้ตัดสินคนที่สอง (90.6% agreement, Cohen's kappa 0.81) ตารางแยกตามระบบฉบับเต็ม ผลด้านความเข้าใจโค้ด และคำสั่งทำซ้ำ: **[BENCHMARKS.md](../../BENCHMARKS.md)**
+ทุกระบบรันบนฮาร์เนสเดียวกัน ด้วยโมเดลและงบประมาณเดียวกัน ให้คะแนนโดยผู้ตัดสินที่ผ่านการตรวจสอบแบบปิดตาเทียบกับผู้ตัดสินคนที่สอง (90.6% agreement, Cohen's kappa 0.81) ตารางแยกตามระบบฉบับเต็ม ผลด้านความเข้าใจโค้ด และคำสั่งทำซ้ำ: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**
 
 ---
 
@@ -454,7 +454,7 @@ viz_node_limit=0
 
 ## การมีส่วนร่วม
 
-ยินดีรับการมีส่วนร่วม ดู **[CONTRIBUTING.md](../../CONTRIBUTING.md)** สำหรับการตั้งค่าสภาพแวดล้อมการพัฒนา, คำสั่งทดสอบและ CI-parity, เวิร์กโฟลว์ git และอะไรที่ทำให้การมีส่วนร่วมแข็งแกร่ง (ตัวอย่างจริงและรายงานบั๊กการสกัดมีประโยชน์ที่สุด) สถาปัตยกรรมและวิธีเพิ่มภาษา: [ARCHITECTURE.md](../../ARCHITECTURE.md)
+ยินดีรับการมีส่วนร่วม ดู **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** สำหรับการตั้งค่าสภาพแวดล้อมการพัฒนา, คำสั่งทดสอบและ CI-parity, เวิร์กโฟลว์ git และอะไรที่ทำให้การมีส่วนร่วมแข็งแกร่ง (ตัวอย่างจริงและรายงานบั๊กการสกัดมีประโยชน์ที่สุด) สถาปัตยกรรมและวิธีเพิ่มภาษา: [ARCHITECTURE.md](../../ARCHITECTURE.md)
 
 เพิ่งมาที่นี่? ทักทายบน [Discord](https://discord.gg/graphify) หรือใน [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions)
 

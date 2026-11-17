@@ -29,4 +29,4 @@ Trước khi phân tích, chỉnh sửa mã hoặc đưa ra tư vấn, Agent b�
   - JWT, OAuth2, RBAC, AuthGuards, OWASP Top 10: nạp `skills/security-auth/SKILL.md`.
 
 ## 3. Thứ tự ưu tiên giải quyết xung đột
-`.skills/contraint.md` > `.skills/target.md` > `AGENTS.md` > `skills/<skill-name>/SKILL.md`
+`.skills/contraint.md` > `.skills/target.md` > `AGENTS.md` (hoặc `.agent/rules/skills-discovery.md`) > `skills/<skill-name>/SKILL.md`

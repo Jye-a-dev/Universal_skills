@@ -137,7 +137,7 @@ Shortest path (3 hops):
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-هر سیستم روی همان بستر با همان مدل و همان بودجه‌ها اجرا شد، و توسط یک داور که به‌صورت کور در برابر یک داور دوم اعتبارسنجی شده بود امتیازدهی شد (توافق 90.6%، کاپای کوهن 0.81). جداول کامل هر سیستم، نتیجهٔ هوش کد، و فرمان‌های بازتولید: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+هر سیستم روی همان بستر با همان مدل و همان بودجه‌ها اجرا شد، و توسط یک داور که به‌صورت کور در برابر یک داور دوم اعتبارسنجی شده بود امتیازدهی شد (توافق 90.6%، کاپای کوهن 0.81). جداول کامل هر سیستم، نتیجهٔ هوش کد، و فرمان‌های بازتولید: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ viz_node_limit=0
 
 ## Contributing
 
-مشارکت‌ها خوش‌آمد هستند. برای راه‌اندازی توسعه، فرمان‌های آزمون و برابری با CI، گردش‌کار git، و اینکه چه چیزی یک مشارکت قوی را می‌سازد (مثال‌های عملی و گزارش‌های باگ استخراج مفیدترین‌ها هستند) **[CONTRIBUTING.md](../../CONTRIBUTING.md)** را ببینید. معماری و چگونگی افزودن یک زبان: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+مشارکت‌ها خوش‌آمد هستند. برای راه‌اندازی توسعه، فرمان‌های آزمون و برابری با CI، گردش‌کار git، و اینکه چه چیزی یک مشارکت قوی را می‌سازد (مثال‌های عملی و گزارش‌های باگ استخراج مفیدترین‌ها هستند) **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** را ببینید. معماری و چگونگی افزودن یک زبان: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 تازه‌وارد هستید؟ در [Discord](https://discord.gg/graphify) یا در [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions) سلام کنید.
 

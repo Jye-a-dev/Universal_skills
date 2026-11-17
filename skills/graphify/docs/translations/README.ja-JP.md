@@ -135,7 +135,7 @@ Shortest path (3 hops):
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-すべてのシステムは、同じハーネス上で、同じモデルと予算で実行され、2 人目の審査員に対してブラインド検証された審査員によって採点されました（90.6% agreement、Cohen's kappa 0.81）。システムごとの完全な表、コードインテリジェンスの結果、再現コマンドは次を参照してください。**[BENCHMARKS.md](../../BENCHMARKS.md)**。
+すべてのシステムは、同じハーネス上で、同じモデルと予算で実行され、2 人目の審査員に対してブラインド検証された審査員によって採点されました（90.6% agreement、Cohen's kappa 0.81）。システムごとの完全な表、コードインテリジェンスの結果、再現コマンドは次を参照してください。**[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**。
 
 ---
 
@@ -454,7 +454,7 @@ AI アシスタントに加えて、`graphify query`、`graphify path`、`graphi
 
 ## コントリビューション
 
-コントリビューションを歓迎します。開発環境のセットアップ、テストと CI-parity のコマンド、git ワークフロー、そして何が優れたコントリビューションになるか（実例と抽出バグレポートが最も役立ちます）については、**[CONTRIBUTING.md](../../CONTRIBUTING.md)** を参照してください。アーキテクチャと言語の追加方法: [ARCHITECTURE.md](../../ARCHITECTURE.md)。
+コントリビューションを歓迎します。開発環境のセットアップ、テストと CI-parity のコマンド、git ワークフロー、そして何が優れたコントリビューションになるか（実例と抽出バグレポートが最も役立ちます）については、**[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** を参照してください。アーキテクチャと言語の追加方法: [ARCHITECTURE.md](../../ARCHITECTURE.md)。
 
 初めてですか？[Discord](https://discord.gg/graphify) または [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions) で挨拶してください。
 

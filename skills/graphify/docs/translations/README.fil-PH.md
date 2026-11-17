@@ -137,7 +137,7 @@ Ang makukuha mo nang out of the box:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-Bawat sistema ay tumakbo sa parehong harness na may parehong modelo at badyet, iniskor ng isang hukom na blind-validated laban sa pangalawang hukom (90.6% na pagkakasundo, Cohen's kappa 0.81). Buong mga talahanayan kada-sistema, ang resulta ng code-intelligence, at mga utos ng reproduksyon: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Bawat sistema ay tumakbo sa parehong harness na may parehong modelo at badyet, iniskor ng isang hukom na blind-validated laban sa pangalawang hukom (90.6% na pagkakasundo, Cohen's kappa 0.81). Buong mga talahanayan kada-sistema, ang resulta ng code-intelligence, at mga utos ng reproduksyon: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Ang [**Graphify Cloud**](https://app.graphify.com/login) ay ang laging-nakabukas
 
 ## Pag-aambag
 
-Malugod na tinatanggap ang mga kontribusyon. Tingnan ang **[CONTRIBUTING.md](../../CONTRIBUTING.md)** para sa development setup, ang mga utos para sa test at CI-parity, ang git workflow, at kung ano ang bumubuo ng isang matibay na kontribusyon (ang mga worked example at extraction bug report ang pinaka-kapaki-pakinabang). Arkitektura at kung paano magdagdag ng wika: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Malugod na tinatanggap ang mga kontribusyon. Tingnan ang **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** para sa development setup, ang mga utos para sa test at CI-parity, ang git workflow, at kung ano ang bumubuo ng isang matibay na kontribusyon (ang mga worked example at extraction bug report ang pinaka-kapaki-pakinabang). Arkitektura at kung paano magdagdag ng wika: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Bago rito? Kumusta sa [Discord](https://discord.gg/graphify) o sa [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

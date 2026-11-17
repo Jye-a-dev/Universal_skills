@@ -137,7 +137,7 @@ Co otrzymujesz od razu po instalacji:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-Każdy system działał na tej samej infrastrukturze testowej z tym samym modelem i budżetami, oceniany przez sędziego zwalidowanego na ślepo względem drugiego sędziego (90,6% zgodności, kappa Cohena 0,81). Pełne tabele dla poszczególnych systemów, wynik dotyczący inteligencji kodu oraz polecenia do odtworzenia: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Każdy system działał na tej samej infrastrukturze testowej z tym samym modelem i budżetami, oceniany przez sędziego zwalidowanego na ślepo względem drugiego sędziego (90,6% zgodności, kappa Cohena 0,81). Pełne tabele dla poszczególnych systemów, wynik dotyczący inteligencji kodu oraz polecenia do odtworzenia: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Każde polecenie i flaga, z przykładami: **[CLI reference](https://docs.graphif
 
 ## Contributing
 
-Wkład jest mile widziany. Zobacz **[CONTRIBUTING.md](../../CONTRIBUTING.md)**, aby poznać konfigurację środowiska deweloperskiego, polecenia testów i zgodności z CI, przepływ pracy w git oraz to, co składa się na mocny wkład (opracowane przykłady i zgłoszenia błędów ekstrakcji są najbardziej przydatne). Architektura i jak dodać język: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Wkład jest mile widziany. Zobacz **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)**, aby poznać konfigurację środowiska deweloperskiego, polecenia testów i zgodności z CI, przepływ pracy w git oraz to, co składa się na mocny wkład (opracowane przykłady i zgłoszenia błędów ekstrakcji są najbardziej przydatne). Architektura i jak dodać język: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Jesteś tu nowy? Przywitaj się na [Discordzie](https://discord.gg/graphify) lub w [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

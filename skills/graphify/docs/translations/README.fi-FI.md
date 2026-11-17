@@ -137,7 +137,7 @@ Mitä saat suoraan laatikosta:
 | ERPNext työkalujen välinen (n=6) | avaintietojen kattavuus | **82.0%** | grep/read-perustaso 70.8% |
 | Graafin rakennus | LLM-krediitit | **0** | per token useimmille järjestelmille |
 
-Jokainen järjestelmä ajettiin samassa testialustassa samalla mallilla ja budjeteilla, ja sen arvioi tuomari, joka oli sokkovalidoitu toista tuomaria vasten (90.6% yksimielisyys, Cohenin kappa 0.81). Täydelliset järjestelmäkohtaiset taulukot, koodiälykkyyden tulos ja toistokomennot: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Jokainen järjestelmä ajettiin samassa testialustassa samalla mallilla ja budjeteilla, ja sen arvioi tuomari, joka oli sokkovalidoitu toista tuomaria vasten (90.6% yksimielisyys, Cohenin kappa 0.81). Täydelliset järjestelmäkohtaiset taulukot, koodiälykkyyden tulos ja toistokomennot: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Jokainen komento ja lippu, esimerkkien kera: **[CLI-viite](https://docs.graphify
 
 ## Osallistuminen
 
-Osallistumiset ovat tervetulleita. Katso **[CONTRIBUTING.md](../../CONTRIBUTING.md)** kehitysympäristön, testi- ja CI-pariteettikomentojen, git-työnkulun ja sen osalta, mikä tekee vahvan osallistumisen (työstetyt esimerkit ja ekstraktiovikailmoitukset ovat hyödyllisimpiä). Arkkitehtuuri ja miten lisätä kieli: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Osallistumiset ovat tervetulleita. Katso **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** kehitysympäristön, testi- ja CI-pariteettikomentojen, git-työnkulun ja sen osalta, mikä tekee vahvan osallistumisen (työstetyt esimerkit ja ekstraktiovikailmoitukset ovat hyödyllisimpiä). Arkkitehtuuri ja miten lisätä kieli: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Uusi täällä? Sano hei [Discordissa](https://discord.gg/graphify) tai [GitHub Discussionsissa](https://github.com/Graphify-Labs/graphify/discussions).
 

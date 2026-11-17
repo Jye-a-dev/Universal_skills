@@ -137,7 +137,7 @@ Qutidan chiqib nima olasiz:
 | ERPNext cross-tool (n=6) | asosiy-fakt qamrovi | **82.0%** | grep/read bazaviy ko'rsatkichi 70.8% |
 | Graf qurish | LLM kreditlari | **0** | ko'pchilik tizimlar uchun token asosida |
 
-Har bir tizim bir xil model va byudjetlar bilan bir xil stendda ishladi, ikkinchi hakamga nisbatan ko'r-ko'rona tasdiqlangan hakam tomonidan baholandi (90.6% kelishuv, Cohen kappasi 0.81). To'liq har bir tizim bo'yicha jadvallar, kod-intellekti natijasi va takrorlash buyruqlari: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Har bir tizim bir xil model va byudjetlar bilan bir xil stendda ishladi, ikkinchi hakamga nisbatan ko'r-ko'rona tasdiqlangan hakam tomonidan baholandi (90.6% kelishuv, Cohen kappasi 0.81). To'liq har bir tizim bo'yicha jadvallar, kod-intellekti natijasi va takrorlash buyruqlari: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Har bir buyruq va bayroq, misollar bilan: **[CLI ma'lumotnomasi](https://docs.gr
 
 ## Hissa qo'shish
 
-Hissalar olqishlanadi. Ishlab chiqish sozlash, test va CI-parity buyruqlari, git ish oqimi va kuchli hissani nima tashkil qilishi (ishlab chiqilgan misollar va ekstraktsiya xato hisobotlari eng foydali) uchun **[CONTRIBUTING.md](../../CONTRIBUTING.md)** ga qarang. Arxitektura va til qanday qo'shiladi: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Hissalar olqishlanadi. Ishlab chiqish sozlash, test va CI-parity buyruqlari, git ish oqimi va kuchli hissani nima tashkil qilishi (ishlab chiqilgan misollar va ekstraktsiya xato hisobotlari eng foydali) uchun **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** ga qarang. Arxitektura va til qanday qo'shiladi: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Bu yerda yangimisiz? [Discord](https://discord.gg/graphify) da yoki [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions) da salom ayting.
 

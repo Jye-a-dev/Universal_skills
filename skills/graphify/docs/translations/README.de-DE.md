@@ -137,7 +137,7 @@ Was Sie out of the box bekommen:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-Jedes System lief auf demselben Harness mit demselben Modell und denselben Budgets, bewertet von einem Judge, der blind gegen einen zweiten Judge validiert wurde (90.6% Übereinstimmung, Cohens Kappa 0.81). Vollständige Tabellen pro System, das Code-Intelligence-Ergebnis und Reproduktionsbefehle: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Jedes System lief auf demselben Harness mit demselben Modell und denselben Budgets, bewertet von einem Judge, der blind gegen einen zweiten Judge validiert wurde (90.6% Übereinstimmung, Cohens Kappa 0.81). Vollständige Tabellen pro System, das Code-Intelligence-Ergebnis und Reproduktionsbefehle: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Jeder Befehl und jedes Flag, mit Beispielen: **[CLI-Referenz](https://docs.graph
 
 ## Mitwirken
 
-Beiträge sind willkommen. Siehe **[CONTRIBUTING.md](../../CONTRIBUTING.md)** für die Entwicklungseinrichtung, die Test- und CI-Paritätsbefehle, den Git-Workflow und was einen starken Beitrag ausmacht (durchgearbeitete Beispiele und Extraktions-Fehlerberichte sind am nützlichsten). Architektur und wie man eine Sprache hinzufügt: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Beiträge sind willkommen. Siehe **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** für die Entwicklungseinrichtung, die Test- und CI-Paritätsbefehle, den Git-Workflow und was einen starken Beitrag ausmacht (durchgearbeitete Beispiele und Extraktions-Fehlerberichte sind am nützlichsten). Architektur und wie man eine Sprache hinzufügt: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Neu hier? Sagen Sie Hallo auf [Discord](https://discord.gg/graphify) oder in den [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

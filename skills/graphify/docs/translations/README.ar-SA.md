@@ -137,7 +137,7 @@ Shortest path (3 hops):
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-شُغّل كل نظام على المنصة ذاتها بالنموذج ذاته والميزانيات ذاتها، وجرى تقييمه بحكَم مُتحقَّق منه بلا معرفة مسبقة مقابل حكَم ثانٍ (اتفاق 90.6%، كابا كوهين 0.81). جداول كاملة لكل نظام، ونتيجة ذكاء الكود، وأوامر إعادة الإنتاج: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+شُغّل كل نظام على المنصة ذاتها بالنموذج ذاته والميزانيات ذاتها، وجرى تقييمه بحكَم مُتحقَّق منه بلا معرفة مسبقة مقابل حكَم ثانٍ (اتفاق 90.6%، كابا كوهين 0.81). جداول كاملة لكل نظام، ونتيجة ذكاء الكود، وأوامر إعادة الإنتاج: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ viz_node_limit=0
 
 ## Contributing
 
-المساهمات مرحّب بها. راجع **[CONTRIBUTING.md](../../CONTRIBUTING.md)** لإعداد التطوير، وأوامر الاختبار وتكافؤ CI، وسير عمل git، وما يصنع مساهمة قوية (الأمثلة العملية وتقارير أخطاء الاستخراج هي الأكثر فائدة). المعمارية وكيفية إضافة لغة: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+المساهمات مرحّب بها. راجع **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** لإعداد التطوير، وأوامر الاختبار وتكافؤ CI، وسير عمل git، وما يصنع مساهمة قوية (الأمثلة العملية وتقارير أخطاء الاستخراج هي الأكثر فائدة). المعمارية وكيفية إضافة لغة: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 جديد هنا؟ ألقِ التحية على [Discord](https://discord.gg/graphify) أو في [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

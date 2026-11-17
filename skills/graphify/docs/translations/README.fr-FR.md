@@ -137,7 +137,7 @@ Ce que vous obtenez d'emblée :
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | par token pour la plupart des systèmes |
 
-Chaque système a tourné sur le même harnais avec le même modèle et les mêmes budgets, noté par un juge validé à l'aveugle contre un second juge (90,6 % d'accord, kappa de Cohen 0,81). Tableaux complets par système, le résultat de code-intelligence et les commandes de reproduction : **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Chaque système a tourné sur le même harnais avec le même modèle et les mêmes budgets, noté par un juge validé à l'aveugle contre un second juge (90,6 % d'accord, kappa de Cohen 0,81). Tableaux complets par système, le résultat de code-intelligence et les commandes de reproduction : **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Chaque commande et chaque option, avec des exemples : **[CLI reference](https://
 
 ## Contributing
 
-Les contributions sont les bienvenues. Voir **[CONTRIBUTING.md](../../CONTRIBUTING.md)** pour la configuration de développement, les commandes de test et de parité CI, le workflow git, et ce qui fait une contribution solide (les exemples travaillés et les rapports de bugs d'extraction sont les plus utiles). Architecture et comment ajouter un langage : [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Les contributions sont les bienvenues. Voir **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** pour la configuration de développement, les commandes de test et de parité CI, le workflow git, et ce qui fait une contribution solide (les exemples travaillés et les rapports de bugs d'extraction sont les plus utiles). Architecture et comment ajouter un langage : [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Nouveau ici ? Dites bonjour sur [Discord](https://discord.gg/graphify) ou dans les [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

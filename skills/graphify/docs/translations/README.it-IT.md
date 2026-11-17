@@ -137,7 +137,7 @@ Ciò che ottieni da subito:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per token per la maggior parte dei sistemi |
 
-Ogni sistema è stato eseguito sullo stesso harness con lo stesso modello e gli stessi budget, valutato da un giudice validato alla cieca contro un secondo giudice (90,6% di accordo, kappa di Cohen 0,81). Le tabelle complete per sistema, il risultato di code-intelligence e i comandi di riproduzione: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Ogni sistema è stato eseguito sullo stesso harness con lo stesso modello e gli stessi budget, valutato da un giudice validato alla cieca contro un secondo giudice (90,6% di accordo, kappa di Cohen 0,81). Le tabelle complete per sistema, il risultato di code-intelligence e i comandi di riproduzione: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Ogni comando e flag, con esempi: **[CLI reference](https://docs.graphify.com/ref
 
 ## Contributing
 
-I contributi sono benvenuti. Vedi **[CONTRIBUTING.md](../../CONTRIBUTING.md)** per la configurazione di sviluppo, i comandi di test e di parità con la CI, il flusso di lavoro git e cosa rende un contributo solido (gli esempi elaborati e le segnalazioni di bug di estrazione sono i più utili). Architettura e come aggiungere un linguaggio: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+I contributi sono benvenuti. Vedi **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** per la configurazione di sviluppo, i comandi di test e di parità con la CI, il flusso di lavoro git e cosa rende un contributo solido (gli esempi elaborati e le segnalazioni di bug di estrazione sono i più utili). Architettura e come aggiungere un linguaggio: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Nuovo qui? Saluta su [Discord](https://discord.gg/graphify) o nelle [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

@@ -137,7 +137,7 @@ Lo que obtienes de inmediato:
 | ERPNext cross-tool (n=6) | cobertura de hechos clave | **82.0%** | línea base grep/read 70.8% |
 | Graph build | créditos de LLM | **0** | por token en la mayoría de los sistemas |
 
-Todos los sistemas se ejecutaron en el mismo arnés con el mismo modelo y presupuestos, puntuados por un juez validado a ciegas contra un segundo juez (90.6% de acuerdo, kappa de Cohen 0.81). Tablas completas por sistema, el resultado de inteligencia de código y los comandos de reproducción: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Todos los sistemas se ejecutaron en el mismo arnés con el mismo modelo y presupuestos, puntuados por un juez validado a ciegas contra un segundo juez (90.6% de acuerdo, kappa de Cohen 0.81). Tablas completas por sistema, el resultado de inteligencia de código y los comandos de reproducción: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Cada comando y flag, con ejemplos: **[Referencia de CLI](https://docs.graphify.c
 
 ## Contribuir
 
-Las contribuciones son bienvenidas. Consulta **[CONTRIBUTING.md](../../CONTRIBUTING.md)** para la configuración de desarrollo, los comandos de pruebas y de paridad con CI, el flujo de trabajo de git y qué hace una contribución sólida (los ejemplos trabajados y los informes de errores de extracción son los más útiles). Arquitectura y cómo añadir un lenguaje: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Las contribuciones son bienvenidas. Consulta **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** para la configuración de desarrollo, los comandos de pruebas y de paridad con CI, el flujo de trabajo de git y qué hace una contribución sólida (los ejemplos trabajados y los informes de errores de extracción son los más útiles). Arquitectura y cómo añadir un lenguaje: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 ¿Nuevo por aquí? Saluda en [Discord](https://discord.gg/graphify) o en [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

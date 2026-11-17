@@ -137,7 +137,7 @@ Amit alapból kap:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | a legtöbb rendszernél tokenenként |
 
-Minden rendszer ugyanazon a harness-en futott, ugyanazzal a modellel és költségkeretekkel, egy olyan bíró által pontozva, amelyet egy második bíróval szemben vakon validáltak (90.6% egyezés, Cohen-féle kappa 0.81). Teljes rendszerenkénti táblázatok, a kód-intelligencia eredmény és a reprodukciós parancsok: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Minden rendszer ugyanazon a harness-en futott, ugyanazzal a modellel és költségkeretekkel, egy olyan bíró által pontozva, amelyet egy második bíróval szemben vakon validáltak (90.6% egyezés, Cohen-féle kappa 0.81). Teljes rendszerenkénti táblázatok, a kód-intelligencia eredmény és a reprodukciós parancsok: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ A [**Graphify Cloud**](https://app.graphify.com/login) a graphify tetejére ép�
 
 ## Contributing
 
-A hozzájárulásokat szívesen fogadjuk. A fejlesztési beállításért, a teszt- és CI-paritási parancsokért, a git-munkafolyamatért és azért, hogy mi tesz egy hozzájárulást erőssé (a kidolgozott példák és a kinyerési hibajelentések a leghasznosabbak), lásd: **[CONTRIBUTING.md](../../CONTRIBUTING.md)**. Architektúra és hogyan adjunk hozzá egy nyelvet: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+A hozzájárulásokat szívesen fogadjuk. A fejlesztési beállításért, a teszt- és CI-paritási parancsokért, a git-munkafolyamatért és azért, hogy mi tesz egy hozzájárulást erőssé (a kidolgozott példák és a kinyerési hibajelentések a leghasznosabbak), lásd: **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)**. Architektúra és hogyan adjunk hozzá egy nyelvet: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Új itt? Köszönjön be a [Discordon](https://discord.gg/graphify) vagy a [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions) felületen.
 

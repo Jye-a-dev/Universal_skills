@@ -137,7 +137,7 @@ Wat je meteen uit de doos krijgt:
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-Elk systeem draaide op hetzelfde harnas met hetzelfde model en dezelfde budgetten, beoordeeld door een jury die blind is gevalideerd tegen een tweede jury (90,6% overeenstemming, Cohen's kappa 0,81). Volledige tabellen per systeem, het code-intelligence-resultaat en reproductiecommando's: **[BENCHMARKS.md](../../BENCHMARKS.md)**.
+Elk systeem draaide op hetzelfde harnas met hetzelfde model en dezelfde budgetten, beoordeeld door een jury die blind is gevalideerd tegen een tweede jury (90,6% overeenstemming, Cohen's kappa 0,81). Volledige tabellen per systeem, het code-intelligence-resultaat en reproductiecommando's: **[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**.
 
 ---
 
@@ -462,7 +462,7 @@ Elk commando en elke flag, met voorbeelden: **[CLI reference](https://docs.graph
 
 ## Bijdragen
 
-Bijdragen zijn welkom. Zie **[CONTRIBUTING.md](../../CONTRIBUTING.md)** voor de ontwikkelopzet, de test- en CI-pariteitscommando's, de git-workflow en wat een sterke bijdrage maakt (uitgewerkte voorbeelden en extractiebugrapporten zijn het nuttigst). Architectuur en hoe je een taal toevoegt: [ARCHITECTURE.md](../../ARCHITECTURE.md).
+Bijdragen zijn welkom. Zie **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** voor de ontwikkelopzet, de test- en CI-pariteitscommando's, de git-workflow en wat een sterke bijdrage maakt (uitgewerkte voorbeelden en extractiebugrapporten zijn het nuttigst). Architectuur en hoe je een taal toevoegt: [ARCHITECTURE.md](../../ARCHITECTURE.md).
 
 Nieuw hier? Zeg hallo op [Discord](https://discord.gg/graphify) of in [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions).
 

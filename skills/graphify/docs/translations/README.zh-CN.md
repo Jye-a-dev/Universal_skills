@@ -135,7 +135,7 @@ Shortest path (3 hops):
 | ERPNext cross-tool (n=6) | key-fact coverage | **82.0%** | grep/read baseline 70.8% |
 | Graph build | LLM credits | **0** | per-token for most systems |
 
-每个系统都在同一个测试框架上、使用相同的模型与预算运行，并由一位评审评分，该评审经过与第二位评审盲测验证（90.6% agreement，Cohen's kappa 0.81）。完整的逐系统表格、代码智能结果，以及复现命令：**[BENCHMARKS.md](../../BENCHMARKS.md)**。
+每个系统都在同一个测试框架上、使用相同的模型与预算运行，并由一位评审评分，该评审经过与第二位评审盲测验证（90.6% agreement，Cohen's kappa 0.81）。完整的逐系统表格、代码智能结果，以及复现命令：**[BENCHMARKS.md](https://github.com/Graphify-Labs/graphify/blob/main/BENCHMARKS.md)**。
 
 ---
 
@@ -454,7 +454,7 @@ viz_node_limit=0
 
 ## 贡献
 
-欢迎贡献。请见 **[CONTRIBUTING.md](../../CONTRIBUTING.md)** 以了解开发环境设置、测试与 CI-parity 命令、git 工作流，以及什么构成一次出色的贡献（可运行的示例与提取错误报告是最有用的）。架构与如何新增一种语言：[ARCHITECTURE.md](../../ARCHITECTURE.md)。
+欢迎贡献。请见 **[CONTRIBUTING.md](https://github.com/Graphify-Labs/graphify/blob/main/CONTRIBUTING.md)** 以了解开发环境设置、测试与 CI-parity 命令、git 工作流，以及什么构成一次出色的贡献（可运行的示例与提取错误报告是最有用的）。架构与如何新增一种语言：[ARCHITECTURE.md](../../ARCHITECTURE.md)。
 
 刚来吗？在 [Discord](https://discord.gg/graphify) 或 [GitHub Discussions](https://github.com/Graphify-Labs/graphify/discussions) 打声招呼。
 
